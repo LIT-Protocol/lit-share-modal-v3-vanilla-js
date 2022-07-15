@@ -73,6 +73,21 @@ In our HTML, we have a div that the modal is loaded into, and a button that call
 </body>
 ```
 
+**Note:** although it's called a modal, the Lit Share Modal is not set up to render that way by default.  You must include outside CSS like that below for it to render correctly
+
+example CSS
+```css
+#shareModal {
+  width: 500px;
+  height: 700px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #333;
+}
+```
+
 Once the user picks their access control conditions, the function passed in to `onAccessControlConditionsSelected` will be called with the accessControlConditions as a parameter. At this point, you should use the accessControlConditions variable to provision access using one of the methods below:
 
 - Dynamic Content - Provisoning access to a resource: https://developer.litprotocol.com/docs/SDK/dynamicContent
