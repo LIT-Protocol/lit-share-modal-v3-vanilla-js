@@ -7,9 +7,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Lit Share Modal V2 Vanilla JS Wrapper
+# Lit Share Modal V3 Vanilla JS Wrapper
 
-This is a wrapper around the Lit Share Modal React package, here: https://github.com/LIT-Protocol/lit-share-modal-v2
+This is a wrapper around the Lit Share Modal React package, here: https://github.com/LIT-Protocol/lit-share-modal-v3
 
 The purpose is to let you use the Lit Share Modal in Vanilla JS, without having to use React.
 
@@ -22,7 +22,7 @@ Check out example.html to see a complete example
 You need to add a tag to the head section of your website:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/lit-share-modal-v2-vanilla-js/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lit-share-modal-v3-vanilla-js/dist/index.js"></script>
 ```
 
 You also need to define functions that will be called when you want to show or close the modal. In this example, we have a button that will call showShareModal() when clicked.
@@ -73,9 +73,10 @@ In our HTML, we have a div that the modal is loaded into, and a button that call
 </body>
 ```
 
-**Note:** although it's called a modal, the Lit Share Modal is not set up to render that way by default.  You must include outside CSS like that below for it to render correctly
+**Note:** although it's called a modal, the Lit Share Modal is not set up to render that way by default. You must include outside CSS like that below for it to render correctly
 
 example CSS
+
 ```css
 #shareModal {
   width: 500px;
