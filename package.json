@@ -1,5 +1,5 @@
 {
-  "name": "lit-share-modal-v3-vanilla-js-react-17",
+  "name": "lit-share-modal-v3-vanilla-js",
   "version": "0.1.11",
   "dependencies": {
     "@babel/core": "7.12.3",
